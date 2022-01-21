@@ -1,0 +1,22 @@
+{
+    "name": "itech/auth",
+    "description": "OAuth",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itech\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nurassyl",
+            "email": "nurassyl.balgabay@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "dusterio/lumen-passport": "^0.3.4",
+        "pearl/lumen-request-validate": "^1.6"
+    }
+}
