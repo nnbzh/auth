@@ -3,17 +3,6 @@
     "description": "OAuth",
     "type": "metapackage",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "sort-packages": true,
-        "preferred-install": "dist"
-    },
-    "autoload": {
-        "psr-4": {
-            "Itech\\Auth\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Nurassyl",
@@ -24,5 +13,16 @@
         "php": ">=8.0",
         "dusterio/lumen-passport": "^0.3.4",
         "pearl/lumen-request-validate": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itech\\Auth\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
     }
 }
