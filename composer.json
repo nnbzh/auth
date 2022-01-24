@@ -1,7 +1,6 @@
 {
     "name": "itech/auth",
     "description": "OAuth",
-    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
