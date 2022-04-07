@@ -7,6 +7,6 @@ use App\Http\Controllers\Controller;
 class UserController extends Controller
 {
     public function user() {
-        return request()->user();
+        return response()->json(['data' => request()->user()]);
     }
 }
