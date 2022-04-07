@@ -22,7 +22,7 @@ class AuthServiceProvider extends ServiceProvider
     }
 
     private function loadRoutes() {
-        LumenPassport::routes($this->app);
+        LumenPassport::routes($this->app->router);
         $this->loadRoutesFrom(__DIR__. '/routes/itech.auth.php');
     }
 
